@@ -177,12 +177,12 @@
     font-size: 36px;
     background-color: var(--sub-panel-color);
     color: var(--white-full);
-  }
-  .score.left {
-    background-color: var(--color-new-ct);
-  }
-  .score.right {
-    background-color: var(--color-new-t);
+    &.CT {
+      background-color: var(--color-new-ct);
+    }
+    &.T {
+      background-color: var(--color-new-t);
+    }
   }
   .bar {
     display: flex;
